@@ -1,0 +1,29 @@
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem; /* py-4 px-8 */
+}
+
+.logo {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600;
+}
+
+.dot {
+  color: var(--primary);
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem; /* gap-6 */
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}

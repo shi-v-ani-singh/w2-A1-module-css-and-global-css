@@ -1,0 +1,54 @@
+.container {
+  margin-top: 5rem; /* mt-20 */
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  max-width: 100%;
+  padding: 2.5rem 1.5rem; /* py-10 px-6 */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.dot {
+  color: rgb(var(--primary));
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #4b5563;
+  max-width: 20rem;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.icon {
+  transition: color 0.2s ease;
+}
+
+.icon:hover {
+  color: rgb(var(--primary));
+}
+
+.bottom {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+  padding-bottom: 1.5rem;
+}
